@@ -1,0 +1,43 @@
+.container {
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  justify-content:left;
+}
+.formDiv {
+  width: 270px;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+}
+.alert {
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .wrapper{ 
+      width: 500px; 
+      overflow-y:scroll; 
+      overflow-x:scroll; 
+      position:relative;
+      height: 500px;
+    }
+    
+.wrapperone{ 
+  width: 500px; 
+  overflow-y:scroll; 
+  overflow-x:scroll; 
+  position:relative;
+  height: 500px;
+}
+
+  }
+
+
+   
+
